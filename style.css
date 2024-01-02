@@ -5,7 +5,7 @@
 
 .relative {
   background-color: honeydew;
-  merge: 200px 50px 1px 50px;
+  merge: 200px 500px 1px 500px;
   padding: 100px 100px 1px 100px;
   border: 2px outset beige;
 }
