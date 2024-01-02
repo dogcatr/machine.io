@@ -4,11 +4,7 @@
 }
 
 .relative {
-  padding: 15px;
-  margin: 0 auto;
-  width: 385px;
-  height: 1000px;
-  background-color: yellow;
+  background-color: honeydew;
 }
 
 .fixed {
@@ -16,8 +12,8 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 30px;
-  background-color: green;
+  height: 100px;
+  background-color: dimgray;
   text-align: center;
-  color: #fff;
+  color: aliceblue;
 }
