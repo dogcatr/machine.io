@@ -7,23 +7,32 @@
   </head>
   <body bgcolor="snow" link="cyan" alink="lightsalmon" vlink="cadetblue">
     <div class="fixed"><b>Minecraftで計算機</b></div>
-    <div class="relative"; style="merge: 100px 50px 1px 50px; padding: 1px 100px 1px 100px; border: 2px outset beige">
-      <h2>はじめに</h2>
-      <hr color="cornflowerblue" align="center" width="95%">
-      <div style="padding:1px 5px 1px 5px">
-        マインクラフトで計算機を作りました。計算機にはレジスタが4つあります。使用可能な命令は以下になります。
+    <div class="relative";>
+      <h1>はじめに</h1>
+      <hr color="cornflowerblue" align="left" width="10%">
+      <div style="padding:10px 600px 1px 50px; text-indent:1rem">
+        2022年3月にマインクラフトで計算機を作りました。作成のきっかけは、計算理論を学ぶ中で、実際にチューリングマシンのようなものを作ってみたいと考えていたところ、プログラミング言語Brainfuckの存在を知ったことです。この言語には8つの命令しかないため、Minecraftで実現できるのではないかと考えました。計算機の状態によって信号が通る所と通らない所を制御すること、特にカウンタのデクリメントでそれを制御することが大変でした。
+      </div>
+	  <h1>動作の説明</h1>
+	  <hr color="cornflowerblue" align="left" width="13%">
+	  <div style="padding:10px 600px 1px 50px; text-indent:1rem">
+        計算機にはレジスタが4つあります。8つの内、使用可能な命令は以下の4つになります。
         <ol type="1">
           <li>ポインタを右に移動</li>
           <li>ポインタを左に移動</li>
           <li>ポインタが指す値をインクリメント</li>
           <li>ポインタが指す値をデクリメント</li>
         </ol>
+		下の写真では、2列ライトが並んでいます。
+		<div class="photo"><img src="photo/01.jpg" width="60%" height="60%"></div>
+		左のレバーで格納された命令を選択、右のレバーで実行します。動画では、ポインタが指す値を+3、ポインタを左に移動、ポインタが指す値を-4という命令を実行しています。
+		<div class="photo"><img src="photo/02.jpg" width="60%" height="60%"></div>
+		実行結果はこちらです。
+		<div class="photo"><img src="photo/03.jpg" width="60%" height="60%"></div>
+		<div class="photo"><img src="photo/04.jpg" width="60%" height="60%"></div>
+		<div class="photo"><img src="photo/05.jpg" width="60%" height="60%"></div>
+		<div class="photo"><img src="photo/06.jpg" width="60%" height="60%"></div>
       </div>
-      <center><img src="photo/01.jpg" width="60%" height="60%"></center>
-      <center><img src="photo/01.jpg" width="60%" height="60%"></center>
-      <center><img src="photo/01.jpg" width="60%" height="60%"></center>
-      <center><img src="photo/01.jpg" width="60%" height="60%"></center>
-      <center><img src="photo/01.jpg" width="60%" height="60%"></center>
     </div>
   </body>
 </html>
